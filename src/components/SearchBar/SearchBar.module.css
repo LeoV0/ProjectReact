@@ -1,0 +1,26 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.searchBar input {
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px 0px 0px 5px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.logoSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  background-color: rgb(194, 193, 191);
+  border-radius: 0px 5px 5px 0px;
+}
+.logoSearch:hover {
+  cursor: pointer;
+}
