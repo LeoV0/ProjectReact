@@ -1,5 +1,28 @@
+/* src/app/page.module.css */
 .main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.container {
+  display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+  justify-content: space-between; /* Espacement entre flexCard et Sidebar */
+  gap: 20px; /* Espace entre les éléments */
+  margin-top: 20px;
+}
+
+.flexCard {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux Card de passer à la ligne si nécessaire */
+  gap: 20px; /* Espacement entre les Card */
+  flex: 1; /* Les Card occupent l'espace restant à gauche */
+}
+
+.cardContainer {
+  flex: 0 0 calc(25% - 15px); /* Chaque Card prend environ 25% de la largeur, ajusté par gap */
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
 }
